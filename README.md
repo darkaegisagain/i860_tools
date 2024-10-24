@@ -18,12 +18,12 @@ go to line 1229
 
 Comment out the stanza
 
-;; AC
-;;(define_insn ""
-;; [(set (match_operand:QI 0 "register_operand" "=r")
-;; (match_operand:QI 1 "indexed_operand" "m")Wink]
-;; ""
-;; "ld.b %1,%0")
+#;; AC
+#;;(define_insn ""
+#;; [(set (match_operand:QI 0 "register_operand" "=r")
+#;; (match_operand:QI 1 "indexed_operand" "m")Wink]
+#;; ""
+#;; "ld.b %1,%0")
 
 which appears to be a bug that never got fixed upstream
 
