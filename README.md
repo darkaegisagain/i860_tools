@@ -33,3 +33,6 @@ which appears to be a bug that never got fixed upstream
 make
 make install
 
+for macos with gcc-14
+
+setenv CFLAGS "-Wno-implicit-fallthrough -Wno-implicit-function-declaration -Wno-builtin-declaration-mismatch -Wno-sign-compare -Wno-unused-but-set-variable -Wno-unused-parameter -Wno-incompatible-pointer-types -Wno-switch -Wno-format-diag -Wno-enum-conversion -Wno-pedantic -Wno-enum-compare"
